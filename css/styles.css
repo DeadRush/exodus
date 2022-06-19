@@ -1,0 +1,71 @@
+ul {
+  color: black;
+  list-style-type: none;
+  display: inline;
+}
+li {
+  display: inline;
+}
+h1 {
+  text-align: center;
+}
+body {
+  background-color: rgb(112, 112, 120);
+  margin: 0px;
+}
+.navi {
+  background-color: black;
+  word-spacing: 10px;
+  padding-bottom: 8px;
+}
+
+.form {
+  text-align: center;
+  background-color: black;
+  padding: 20px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  border-style: hidden;
+  border-width: 5px;
+  border-radius: 30px;
+}
+
+.about {
+  background: black;
+  color: white;
+  width: 50vw;
+  height: 50vh;
+  border-style: hidden;
+  border-width: 5px;
+  border-radius: 30px;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.gallery {
+  background-color: black;
+  padding: 30px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  border-style: hidden;
+  border-width: 5px;
+  border-radius: 30px;
+  color: white;
+}
+
+.insta {
+  display: flex;
+  justify-content: center;
+}
+.image {
+  border-style: hidden;
+  border-width: 5px;
+  border-radius: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
